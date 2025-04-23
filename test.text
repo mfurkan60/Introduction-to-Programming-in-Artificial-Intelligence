@@ -1,0 +1,106 @@
+Örnek Müfredat ve Repo Yapısı:
+Repo içinde her ana başlık için bir klasör oluşturabilirsin. Her klasörün içinde de konuları açıklayan README.md dosyaları, kod örnekleri içeren .py veya .ipynb (Jupyter Notebook) dosyaları ve varsa kullanılan küçük veri setleri için bir data alt klasörü bulunabilir.
+Modül 0: Hazırlık ve Araçlar (00-Hazirlik_ve_Araclar)
+Konular:
+Neden AI için Python?
+Gerekli Yazılımların Kurulumu (Python, Anaconda/Miniconda)
+IDE Seçimi ve Kurulumu (VS Code, PyCharm, Jupyter Notebook/Lab)
+Temel Git ve GitHub Kullanımı (Repo oluşturma, clone, add, commit, push)
+Sanal Ortamların Önemi ve Kullanımı (venv, conda)
+Dosyalar:
+README.md: Modül içeriği, kurulum adımları, araçların tanıtımı.
+git_github_temelleri.md: Temel Git komutları ve GitHub akışı.
+ortam_kurulumu.md: Python ve sanal ortam kurulum rehberi.
+Modül 1: Python Temelleri (AI Odaklı) (01-Python_Temelleri)
+Konular:
+Veri Tipleri (int, float, string, boolean) ve Değişkenler
+Operatörler (Aritmetik, Karşılaştırma, Mantıksal)
+Veri Yapıları (Listeler, Tuple'lar, Sözlükler, Kümeler - özellikle listeler ve sözlükler üzerine yoğunlaşma)
+Kontrol Akışı (if-elif-else, for, while döngüleri)
+Fonksiyonlar (Tanımlama, çağırma, parametreler, return)
+Modüller ve Paketler (import kullanımı)
+Dosya İşlemleri (Basit okuma/yazma)
+(İsteğe Bağlı) Nesne Yönelimli Programlama (OOP) Temelleri (Sınıf, Nesne)
+Dosyalar:
+README.md: Modül konularının özeti.
+veri_tipleri_degiskenler.ipynb: Kod örnekleri ve açıklamalar.
+veri_yapilari.ipynb: Listeler, sözlükler vb. ile ilgili örnekler.
+kontrol_akisi_donguler.ipynb: if/else, for/while örnekleri.
+fonksiyonlar.ipynb: Fonksiyon tanımlama ve kullanma.
+dosya_islemleri.py: Basit dosya okuma/yazma örneği.
+Modül 2: Veri Bilimi İçin Temel Kütüphaneler (02-Veri_Kutuphaneleri)
+Konular:
+NumPy:
+NumPy Array'leri Oluşturma ve Temel İşlemler
+Matematiksel ve İstatistiksel Fonksiyonlar
+Indeksleme ve Dilimleme (Slicing)
+Vektörel Operasyonlar (Neden Hızlı?)
+Pandas:
+Series ve DataFrame Yapıları
+Veri Okuma/Yazma (CSV, Excel vb.)
+Veri Seçme ve Filtreleme (loc, iloc)
+Temel Veri Temizleme (Eksik veriler - dropna, fillna)
+Gruplama (groupby) ve Agregasyon İşlemleri
+Matplotlib / Seaborn:
+Temel Grafik Çizimleri (Çizgi, Bar, Histogram, Scatter Plot)
+Grafikleri Özelleştirme (Başlık, Eksen İsimleri, Lejant)
+Seaborn ile Daha Estetik Görselleştirmeler
+Dosyalar:
+README.md: Kütüphanelerin tanıtımı ve önemi.
+numpy_giris.ipynb: NumPy örnekleri.
+pandas_giris.ipynb: Pandas DataFrame/Series kullanımı, veri işleme.
+veri_gorsellestirme.ipynb: Matplotlib ve Seaborn ile grafik çizimleri.
+data/ (alt klasör): Örnek CSV dosyaları.
+Modül 3: Yapay Zeka ve Makine Öğrenmesine Giriş (03-AI_ML_Giris)
+Konular:
+Yapay Zeka Nedir? Tarihçesi ve Alt Dalları (Makine Öğrenmesi, Derin Öğrenme vb.)
+Makine Öğrenmesi Nedir? Temel Kavramlar (Öznitelik/Feature, Etiket/Label, Model)
+Makine Öğrenmesi Türleri (Gözetimli, Gözetimsiz, Pekiştirmeli Öğrenme)
+Temel Makine Öğrenmesi Akışı (Veri Toplama -> Ön İşleme -> Model Eğitimi -> Değerlendirme -> Tahmin)
+Overfitting (Aşırı Öğrenme) ve Underfitting (Yetersiz Öğrenme) Kavramları
+Dosyalar:
+README.md: Temel kavramların ve terminolojinin açıklamaları.
+ai_ml_temel_kavramlar.md: Daha detaylı açıklamalar ve belki basit şemalar.
+Modül 4: Temel Makine Öğrenmesi Algoritmaları (Scikit-learn ile) (04-Temel_ML_Algoritmalari)
+Konular:
+Scikit-learn Kütüphanesine Giriş: API yapısı.
+Veri Ön İşleme:
+Veriyi Eğitim ve Test Setlerine Ayırma (train_test_split)
+Öznitelik Ölçeklendirme (StandardScaler, MinMaxScaler)
+Kategorik Verilerin Dönüştürülmesi (OneHotEncoder, LabelEncoder)
+Gözetimli Öğrenme:
+Lineer Regresyon (Regression)
+Lojistik Regresyon (Classification)
+K-En Yakın Komşu (KNN) (Classification)
+Karar Ağaçları (Decision Trees) (Classification/Regression)
+Model Değerlendirme Metrikleri:
+Sınıflandırma: Accuracy, Precision, Recall, F1-Score, Karmaşıklık Matrisi (Confusion Matrix)
+Regresyon: MSE (Mean Squared Error), R² Score
+Dosyalar:
+README.md: Modül içeriği, Scikit-learn tanıtımı.
+veri_onisleme.ipynb: Ölçeklendirme, kategorik veri dönüştürme örnekleri.
+lineer_regresyon.ipynb: Basit lineer regresyon uygulaması.
+lojistik_regresyon_knn.ipynb: Sınıflandırma algoritmaları uygulaması.
+karar_agaclari.ipynb: Karar ağacı uygulaması.
+model_degerlendirme.ipynb: Metriklerin hesaplanması ve yorumlanması.
+data/ (alt klasör): Algoritmalar için uygun küçük veri setleri (örneğin, Iris, Boston Housing gibi Scikit-learn içinden de yüklenebilir).
+Modül 5: İleri Konulara Giriş (İsteğe Bağlı) (05-Ileri_Konulara_Giris)
+Konular:
+Derin Öğrenmeye Çok Kısa Bir Bakış (Yapay Sinir Ağları Nedir?)
+Doğal Dil İşlemeye (NLP) Giriş (Temel kavramlar)
+Bilgisayarlı Görüye (Computer Vision) Giriş (Temel kavramlar)
+Kullanılabilecek Diğer Kütüphaneler (TensorFlow, Keras, PyTorch - sadece isim olarak bahsetme)
+Dosyalar:
+README.md: Bu alanların ne olduğu ve ileride neler öğrenilebileceğine dair kısa bilgiler.
+Genel Repo Dosyaları:
+.gitignore: Sanal ortam klasörleri (venv/, __pycache__/, *.pyc), büyük veri dosyaları, Jupyter checkpoint'leri (.ipynb_checkpoints/) gibi reponuza eklenmemesi gereken dosyaları belirtir.
+LICENSE: Reponuzun kullanım koşullarını belirleyen bir lisans dosyası (Örn: MIT License).
+README.md (Ana dizinde): Yukarıda bahsettiğimiz gibi repo hakkında genel bilgi, müfredat özeti, katkıda bulunma (istersen) ve iletişim bilgileri.
+Nasıl İlerleyebiliriz?
+Repo Oluşturma: GitHub hesabında Introduction-to-Programming-in-Artificial-Intelligence adıyla yeni bir repo oluştur. Açıklama ekle, README.md, .gitignore (Python şablonunu seçebilirsin) ve bir LICENSE (MIT önerilir) dosyalarıyla başlat.
+İlk Modül: "Modül 0: Hazırlık ve Araçlar" klasörünü oluştur. İçine bir README.md dosyası ekleyerek modülün amacını ve konularını yazmaya başla. Gerekli kurulum adımlarını araştırıp kendi cümlelerinle belgeleyebilirsin.
+Adım Adım: Her modülü sırayla ele al. Önce konuları araştır, anladıklarını README.md dosyasına not et. Sonra ilgili kodları yazıp .ipynb veya .py dosyalarına ekle. Anlamadığın yerleri veya kodları çalıştırırken karşılaştığın sorunları not al.
+Dokümantasyon: Kodlarına yorum satırları ekle. Notebook kullanıyorsan Markdown hücrelerinde açıklamalar yap. README dosyalarını anlaşılır ve takip edilebilir şekilde yazmaya özen göster.
+Commit ve Push: Yaptığın değişiklikleri anlamlı commit mesajları ile sık sık kaydet (git commit -m "Modül 1: Fonksiyonlar konusu eklendi") ve GitHub'a gönder (git push). Bu, hem ilerlemeni takip etmeni sağlar hem de bir sorun olursa geri dönmeni kolaylaştırır.
+Sorular ve Tartışma: Takıldığın yerlerde veya bir konuyu daha derinlemesine anlamak istediğinde bana buradan yazabilirsin. Birlikte araştırır, tartışır ve çözümler buluruz.
+Bu yolculukta en önemli şey istikrar ve merak. Başlangıçta her şey biraz karmaşık gelebilir ama adım adım ilerledikçe taşlar yerine oturacaktır.
